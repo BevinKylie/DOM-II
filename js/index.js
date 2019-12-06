@@ -1,6 +1,5 @@
 // Your code goes here
 const body = document.querySelector('body');
-console.log(body)
 body.addEventListener('keypress', (e) => {
     e.target.style.backgroundColor ="lightgray"
 })
@@ -16,9 +15,7 @@ mapImg.addEventListener('mouseleave', (e) => {
 })
 
 const sound = document.getElementById('busSound');
-console.log(sound)
 const busPic = document.querySelector('[src="img/fun-bus.jpg"]')
-console.log(busPic)
 
 busPic.addEventListener('dblclick', (e) => {
     sound.play()
